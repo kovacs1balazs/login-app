@@ -2,7 +2,7 @@
   "name": "login-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/login-app",
+  "homepage": "https://kovacs1balazs.github.io/login-app",
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
