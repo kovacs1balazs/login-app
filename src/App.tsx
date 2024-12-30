@@ -6,7 +6,7 @@ import { SuccessPage } from './successPage.tsx';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/login-app'>
         <Routes>
           <Route path="/" element={<LoginForm />} />
           <Route path="/success" element={<SuccessPage />} />
