@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/login-app/:path*",
+        "destination": "/login-app/index.html"
+      }
+    ]
+  }
+  
