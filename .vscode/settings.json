@@ -1,0 +1,24 @@
+{
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "[javascript][javascriptreact][typescript][typescriptreact][mdx]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": false
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
+      "addMissingImports": "explicit"
+    },
+    "tailwindCSS.experimental.classRegex": [
+      ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+      ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
+    "css.validate": false,
+    "i18n-ally.localesPaths": "src/messages",
+    "i18n-ally.enabledFrameworks": ["react"],
+    "i18n-ally.keystyle": "flat",
+    "i18n-ally.sourceLanguage": "en"
+  }
+  
